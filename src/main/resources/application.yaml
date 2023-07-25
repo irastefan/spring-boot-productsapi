@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: products-api
+  datasource:
+    url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:43141/products-api
+    username: admin
+    password: admin
+
+  flyway:
+    baselineOnMigrate: true
